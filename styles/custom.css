@@ -1,0 +1,51 @@
+/* this is global, maybe separate into own file if it gets too large */
+/* body should always fit full page*/
+body {
+	height: 100vh;
+	min-height: 100%;
+	background-color: white;
+}
+
+/* next wraps itself around our components, ensure that it fills body */
+#__next {
+	min-height: 100%;
+	height: 100%;
+}
+
+/* this is custom css */
+
+.facebook-comment-count-inline div {
+	display: inline;
+}
+
+.fa-red {
+	color: red;
+}
+
+.fa-blue {
+	color: #2e6da4;
+}
+
+.fa-green path {
+	fill: #6DB65B;
+	fill-opacity: 1;
+	color: #6DB65B;
+}
+
+.fa-red path {
+	fill: #cc0000;
+	fill-opacity: 1;
+	color: #cc0000;
+}
+
+.fa-no-hover:hover path {
+	pointer-events: none;
+}
+
+.modalSmall {
+	width: 350px;
+}
+
+.no-close-focus .close {
+	outline: none;
+}

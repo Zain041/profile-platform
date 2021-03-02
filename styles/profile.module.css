@@ -1,0 +1,12 @@
+.background {
+  background: white url(/assets/world.min.png) center fixed no-repeat;
+  filter: blur(8px);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1; /*background stays behind everything else on page*/
+}
+
+.preview {
+  max-width: 300px;
+}
